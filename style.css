@@ -188,6 +188,19 @@ body {
     transform: translateY(-10px);
 }
 
+.featured-project {
+    border: 2px solid rgba(37, 99, 235, 0.3);
+}
+
+.project-label {
+    margin-bottom: 8px;
+    color: var(--primary);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
 .project-img {
     height: 200px;
     overflow: hidden;
@@ -245,6 +258,10 @@ body {
 
 .project-link:hover {
     gap: 12px;
+}
+
+.featured-project .project-link + .project-link {
+    margin-left: 20px;
 }
 
 /* Blog */
